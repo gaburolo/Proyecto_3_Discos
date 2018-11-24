@@ -11,7 +11,7 @@
 #include <iostream>
 int main(){
     int num;
-    std::cout << "Ingrese el numero de disco: ";
+    std::cout << "Numero de discos: ";
     std::cin >> num;
     Singleton::createDiskDirectory(num);
     std::cout << "Disco creado" << std::endl;
